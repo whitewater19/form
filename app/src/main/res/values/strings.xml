@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">form</string>
+    <string name="haha1">外送</string>
+    <string name="haha2">不外送</string>
+    <string name="haha3">可樂</string>
+    <string name="haha4">果汁</string>
+    <string name="haha5">咖啡</string>
+
+</resources>

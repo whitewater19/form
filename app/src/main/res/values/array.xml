@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fruits">
+        <item>奇異果</item>
+        <item>蘋果</item>
+        <item>水梨</item>
+        <item>鳳梨</item>
+        <item>櫻桃</item>
+        <item>火龍果</item>
+    </array>
+<array name="time">
+    <item>11:00-12:00</item>
+    <item>12:00-13:00</item>
+
+
+</array>
+</resources>
