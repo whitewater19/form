@@ -20,10 +20,10 @@ class MainActivity : AppCompatActivity() {
         spinner4=findViewById(R.id.spinner4)
         
         var adapter: ArrayAdapter<CharSequence> = ArrayAdapter.createFromResource(
-            this,
-            R.array.fruits,
+            this,//容器（main)
+            R.array.fruits,//要新增的資料（剛增在res/xml)
             R.layout.support_simple_spinner_dropdown_item
-        )
+        ).      //View
         spinner.adapter = adapter
         var adapter4: ArrayAdapter<CharSequence> = ArrayAdapter.createFromResource(
             this,
