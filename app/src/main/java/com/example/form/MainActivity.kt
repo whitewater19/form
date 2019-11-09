@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
         spinner4=findViewById(R.id.spinner4)
         
         var adapter: ArrayAdapter<CharSequence> = ArrayAdapter.createFromResource(
+//目的是設定資料來源，無法直接spinner取得資料，一定要迂迴，把資料給adapter再給spinner
+
             this,//容器（main)
             R.array.fruits,//要新增的資料（剛增在res/xml)
             R.layout.support_simple_spinner_dropdown_item
